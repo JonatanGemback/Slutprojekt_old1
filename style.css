@@ -1,0 +1,344 @@
+body {
+    margin: 0%;
+    scroll-behavior: smooth;
+}
+
+#topMenyBar {
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+#topBar {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+#fraktText {
+    color: white;
+}
+
+#rabattText {
+    color: lightblue;
+}
+
+#öppetKöpText {
+    color: white;
+}
+
+#meny {
+    display: flex;
+    flex-direction: row;
+}
+
+#menyBar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+}
+
+div#menyBar {
+    border-style: none none solid none;
+    border-width: 1px;
+}
+
+.navbar {
+    display: flex;
+    background-color: white;
+    width: 33%;
+    height: 100%;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.navbar a {
+    float: left;
+    color: black;
+    padding: 2% 2%;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+.menyText {
+    font-size: x-large;
+}
+
+.menyLogga {
+    display: flex;
+    background-color: white;
+    width: 33%;
+    height: 100%;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.menyLogga a {
+    color: black;
+    text-decoration: none;
+}
+
+.menyLogga a:hover {
+    text-decoration: underline;
+}
+
+#tsoobText {
+    font-size: xx-large;
+}
+
+.varukorg {
+    display: flex;
+    justify-content: center;
+}
+
+#shoppingCart {
+    width: 10%;
+    margin: 1%;
+}
+
+#helSida {
+    width: 100%;
+}
+
+#reaRuta {
+    margin: 7%;
+}
+
+#rutan {
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.mönster {
+    background-color: #BF0A0A;
+    width: 33.333%;
+    height: 33.333%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mönsterRuta {
+    width: 80%;
+    height: 80%;
+    background-color: #ac0909;
+    display: flex;
+    justify-content: center;
+}
+
+#mönsterRuta1 {
+    display: flex;
+    align-items: flex-end;
+}
+
+#mönsterRuta2 {
+    display: flex;
+    align-items: center;
+}
+
+#mönsterRuta3 {
+    display: flex;
+    align-items: flex-start;
+}
+
+.rutText {
+    color: white;
+    font-size: x-large;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.kläderBar {
+    display: flex;
+    justify-content: center;
+}
+
+.kläderText {
+    font-size: xx-large;
+    text-decoration: underline;
+}
+
+div.kläderBar {
+    border-style: none none solid none;
+    border-width: 1px;
+}
+
+.kläderBox {
+    margin: 7%;
+
+}
+
+.kläderRutan {
+    border-style: solid;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#uppKnapp {
+    float: right;
+    margin-bottom: 2%;
+    margin-right: 2%;
+}
+
+.kläderMönster {
+    width: 25%;
+    margin: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    border-style: solid;
+    border-radius: 10%;
+    border-color: black;
+}
+
+.kläder {
+    width: 98%;
+    border-radius: 10%;
+    margin: 1%;
+}
+
+.beskrivning {
+    display: flex;
+    flex-direction: column;
+    margin-left: 3%;
+    color: black;
+    text-decoration: underline;
+}
+
+#infoBakgrund {
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+#infoRuta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.kontaktaOssText {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.logga {
+    width: 45%;
+    background-color: white;
+    border-radius: 20%;
+}
+
+.loggaDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#instagram {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#twitter {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#facebook {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#fbPlasering {
+    display: flex;
+    align-items: center;
+}
+
+#sidorPosition {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.bildSidan {
+    width: 50%;
+    margin-top: 8%;
+}
+
+.beskrivningSidan {
+    width: 50%;
+    margin-top: 8%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.bildPosition {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.beskrivningPosition {
+    display: flex;
+    flex-direction: column;
+}
+
+.menyLoggaVara {
+    display: flex;
+    background-color: white;
+    width: 50%;
+    height: 100%;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.menyLoggaVara a {
+    color: black;
+    text-decoration: none;
+}
+
+.menyLoggaVara a:hover {
+    text-decoration: underline;
+}
+
+.kläderMönsterVara {
+    width: 30%;
+    margin: 1%;
+    border-style: solid;
+    border-radius: 10%;
+}
+
+#knappDiv {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3%;
+}
+
+#köpKnapp {
+    width: 50px;
+}
+
+#cartContainer {
+    display: flex;
+    justify-content: center;
+}
+
+#out {
+    margin-top: 1%;
+    margin-left: 1%;
+}
